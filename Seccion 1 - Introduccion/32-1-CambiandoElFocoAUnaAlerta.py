@@ -22,8 +22,7 @@ class CambiarFocoAlert(unittest.TestCase):
         alert.accept()
         time.sleep(3)
         
-
-
+        
     def tearDown(self):
         driver.quit()
 
