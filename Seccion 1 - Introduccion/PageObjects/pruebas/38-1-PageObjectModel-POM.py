@@ -12,7 +12,8 @@ ofrece las siguentes ventajas.
     - Código reusable - use el mismo script en varias pruebas
 
 '''
-
+import sys
+sys.path.append(r'C:\Users\gueri\Desktop\Programacion y otros\Cursos\Fundamentos Selenium WebDriver Con Python\Seccion 1 - Introduccion\PageObjects')
 import unittest
 from selenium import webdriver
 from paginas.loginPaginas import LoginPage
